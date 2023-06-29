@@ -3,6 +3,7 @@ import { LOGO_URL } from "../utils/Constants";
 
 const Header = () => {
     const [btnNameReact, setBtnNameReact] = useState("Login")
+    console.log("Header render")
 
     return (
         <div className="header">
